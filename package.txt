@@ -1,0 +1,22 @@
+com.rpst.yc
+// For the server
+-com.rpst.yc.server[no code here]
+--com.rpst.yc.server.ui
+--com.rpst.yc.server.logic[no code here]
+---com.rpst.yc.server.logic.dec
+---com.rpst.yc.server.logic.code
+
+//For the client
+-com.rpst.yc.client[no code here]
+--com.rpst.yc.client.ui
+--com.rpst.yc.client.logic[no code here]
+---com.rpst.yc.client.logic.dec
+---com.rpst.yc.client.logic.code
+
+//For common files as datatypes and common logic
+-com.rpst.yc.commons[no code here]
+--com.rpst.yc.commons.dec
+--com.rpst.yc.commons.code
+--com.rpst.yc.commons.dt [for datatypes][no code here]
+---com.rpst.yc.commons.dt.dec
+---com.rpst.yc.commons.dt.code
